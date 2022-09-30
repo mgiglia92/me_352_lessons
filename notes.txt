@@ -1,0 +1,7 @@
+Quarc Templates fill board specific options in HIL-1 Block.
+
+To fix/prevent, make sure board specific options is empty in your simulink
+model before saving. Then make sure to SAVE the model! If it is unsaved it seems this causes
+the board specific options to be auto filled. If you save the model before 
+saving as template it seems it will not fill the board specific options 
+text. Hopefully this is how to prevent this from happening on all templates!
